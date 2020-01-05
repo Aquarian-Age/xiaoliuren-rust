@@ -1,5 +1,10 @@
 //马前失物诀　起课与前法略不同　月上起日　日上起时辰
+/*
 use crate::public::{
+    GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi, TwelveTime,
+};
+*/
+use public::{
     GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi, TwelveTime,
 };
 

@@ -1,6 +1,7 @@
 //小掉桥内容
 
-use crate::public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
+//use crate::public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
+use public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
 
 pub struct XiaoDiaoQiao {
     pub(crate) diao_qiao: GongWei,

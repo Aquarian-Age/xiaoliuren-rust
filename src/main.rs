@@ -1,8 +1,12 @@
 pub mod jie_gua;
 pub mod public;
 pub mod qi_ke;
+/*
 use crate::public::some_other;
 use crate::select::select_time_number;
+*/
+use public::some_other;
+use select::select_time_number;
 
 pub mod select;
 pub mod shi_wu_jue;
@@ -10,7 +14,8 @@ pub mod xiao_diao_qiao;
 pub mod zhang_zhong_jue;
 
 pub mod jin_kou_ding;
-use crate::jin_kou_ding::jkd;
+//use crate::jin_kou_ding::jkd;
+use jin_kou_ding::jkd;
 //１大安; ２留连;　３速喜; 4赤口; 5小吉; ０空亡;
 //同一个宫位循环数字
 //大安　１  7(6*1+1)  13(6*2+1) 19(6*3+1)  25(6*4+1)  31(6*5+1) 大安括号内都加一

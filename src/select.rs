@@ -1,5 +1,6 @@
 //起课选择　数字或者时间　后期添加随机起课
-use crate::qi_ke::{qi_ke_swj, qi_ke_swj_time, value_in_info, value_in_info_time};
+//use crate::qi_ke::{qi_ke_swj, qi_ke_swj_time, value_in_info, value_in_info_time};
+use qi_ke::{qi_ke_swj, qi_ke_swj_time, value_in_info, value_in_info_time};
 use std::io;
 use std::process::exit;
 

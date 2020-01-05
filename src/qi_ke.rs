@@ -1,9 +1,16 @@
 //卜法卷可卜算内容列表
+/*
 use crate::jie_gua::info_fen_lei_juan;
 use crate::select::get_input;
 use crate::shi_wu_jue::ask_swj;
 use crate::xiao_diao_qiao::diao_qiao;
 use crate::zhang_zhong_jue::ask_zzj;
+*/
+use jie_gua::info_fen_lei_juan;
+use select::get_input;
+use shi_wu_jue::ask_swj;
+use xiao_diao_qiao::diao_qiao;
+use zhang_zhong_jue::ask_zzj;
 use std::process::exit;
 
 //按照数字起课　根据输入选择对应占卜信息

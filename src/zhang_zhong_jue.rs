@@ -1,7 +1,8 @@
 //六壬掌中诀
 //询问并获取用户输入是否继续查看掌中诀内容
 
-use crate::public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
+//use crate::public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
+use public::{GongWei, JieChiKou, JieDaAn, JieKongWang, JieLiuLian, JieSuXi, JieXiaoJi};
 use std::io;
 use std::process::exit;
 

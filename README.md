@@ -31,7 +31,8 @@ rustc 1.42.0-nightly (c5840f9d2 2020-01-03)
 
 Linux平台: rustup show 版本小于1.41.0的需要启用 //注释的部分 同时注释掉相同的部分
 如下 如果编译报错交换注释即可
-```/*
+```
+/*
 use crate::jie_gua::info_fen_lei_juan;
 use crate::select::get_input;
 use crate::shi_wu_jue::ask_swj;
